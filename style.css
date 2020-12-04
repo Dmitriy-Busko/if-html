@@ -1,0 +1,45 @@
+div.text {
+  text-align: center;
+  font-size: 26px;
+}
+
+div.line {
+  text-align: center;
+  padding: 5px 0px 50px 0px;
+}
+
+div.box {
+  max-width: 1232px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+  display: inline-block;
+}
+
+.signatures {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.sign1 {
+  padding-right: 200px;
+  padding-left: 50px;
+}
+
+.sign2 {
+  padding-right: 185px;
+  padding-left: 50px;
+}
+.sign3 {
+  padding-right: 210px;
+  padding-left: 50px;
+}
+.sign4 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
