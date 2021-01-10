@@ -1,3 +1,5 @@
+@import url("./fonts.css");
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,6 +13,9 @@
 }
 
 .offers-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -45,10 +50,68 @@
 }
 
 .item-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 }
 
 .text-center {
     text-align: center;
+}
+
+.container-foter {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 120px 0px 200px;
+    width: 100%;
+    background-color: #10367C;
+    }
+
+.container-list {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.list-1 {
+    margin-left: 104px;
+    width: 280px;
+}
+
+.list-2 {
+    margin-left: 210px;
+    width: 300px;   
+}
+
+.list-3 {
+    margin-left: 100px;
+    margin-right: 200px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.list-1-1 {
+    font-weight: 500;
+}
+
+.copyright {
+    padding-left: 104px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
 }
