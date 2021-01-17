@@ -1,0 +1,207 @@
+@import url("./fonts.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head {
+    background-image: url(../images/castelmezzano.jpg);
+    width: 1440px;
+    height: 900px;
+    background-position-x: center;
+    background-position-y: 30%;
+}
+
+.container-head {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 51px 0px 120px;
+    width: 100%;
+}
+
+.header {
+    width: 1232px;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+
+.main-1 {
+    margin-left: 684px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.main-2 { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+.sprite {
+    background-image: url("../images/Sprite.svg");
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    width: 32px;
+    height: 35px;
+    margin-left: 48px;
+}
+
+.underline {
+    border: none;
+    width: 50px;
+    height: 4px;
+    margin-left: 892px;
+    padding: 0px;
+    background-color: #F5BD41;
+}
+
+.img2 {
+    width: 40px;
+    height: 45px;
+    background-position: -35px;
+    margin-left: 24px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-top: 202px;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+}
+
+.space {
+    padding-right: 17px;
+}
+
+
+.container {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 120px 0px 120px;
+    width: 100%;
+}
+
+.offers-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.titel-underline {
+    border: none;
+    width: 100px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #F5BD41;
+    margin-bottom: 80px;
+}
+
+.offers-list {
+    display: flex;
+}
+
+.item {
+    width: 25%;
+    text-align: center;
+}
+
+.img-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.item-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-foter {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 120px 0px 200px;
+    width: 100%;
+    background-color: #10367C;
+    }
+
+.container-list {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.list-1 {
+    margin-left: 104px;
+    width: 280px;
+}
+
+.list-2 {
+    margin-left: 210px;
+    width: 300px;   
+}
+
+.list-3 {
+    margin-left: 100px;
+    margin-right: 200px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.list-1-1 {
+    font-weight: 500;
+}
+
+.copyright {
+    padding-left: 104px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
